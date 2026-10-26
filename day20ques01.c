@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include<stdio.h>
 int main() {
     int n, digit, product = 1;
     printf("Enter a number: ");
