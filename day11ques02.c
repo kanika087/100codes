@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include<stdio.h>
 int main() {
     float cp, sp, profit, loss, percentage;
     printf("Enter Cost Price: ");
