@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include<stdio.h>
 int main() {
     int n, digit, complement = 0, place = 1;
     printf("Enter a binary number: ");
