@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include<stdio.h>
 int main() {
     float percentage;
     printf("Enter percentage (0-100): ");
