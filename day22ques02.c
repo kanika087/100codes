@@ -1,24 +1,13 @@
 #include<stdio.h>
 int main() {
-    int n, original, digit, i, fact, sum = 0;
-    printf("Enter a number: ");
+     int n, i;
+    double sum = 1.0;
+    printf("Enter the number of terms: ");
     scanf("%d", &n);
-    original = n;
-    while (n > 0) {
-        digit = n % 10;
-        fact = 1;
-        for (i = 1; i <= digit; i++) {
-            fact = fact * i;
-        }
-        sum = sum + fact;
-        n = n / 10;
+    for (i = 2; i <= n; i++){
+        sum = sum + (double)(2 * i - 1) / (2 * i);
     }
-    if(sum == original && original >= 0){
-        printf("%d is a strong number.\n", original);
-    }
-    else{
-        printf("%d is not a strong number.\n", original);
-    }
+    printf("Sum of the series = %.2f\n", sum);
     return 0;
 }
 
