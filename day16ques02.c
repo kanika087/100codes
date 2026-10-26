@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include<stdio.h>
 int main() {
     int n, original, reverse = 0, remainder;
     printf("Enter a number: ");
