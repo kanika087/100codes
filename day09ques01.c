@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include <math.h>
+#include<stdio.h>
+#include<math.h>
 int main() {
     float a, b, c, D, root1, root2;
     float realPart, imaginaryPart;
